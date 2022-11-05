@@ -1,0 +1,54 @@
+
+body {
+    background-image: url(https://res.cloudinary.com/estebanamazo/image/upload/v1667609338/ciclo4/bogota_vdbfsa.png);
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(1px); */
+    
+}
+
+.hero {
+    /* height: 1rem; */
+    margin-top: 14rem;
+    gap: 7rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+
+
+.hero__image {
+ 
+    place-content: center;
+    object-fit: fill;
+    /* max-width: 200%; */
+    /* width: 150%; */
+    height: 50rem;
+    /*background-color:#c0c0c0;*/
+    border-radius: 1rem;
+
+}
+
+.hero__image img {
+    border-radius: 1rem;
+}
+
+
+.hero__info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4rem;
+    /* backdrop-filter: blur(15px); */
+    
+    
+}
+
+.hero__info h2 {
+    text-align: start;
+    line-height: 1.4;
+    font-size: 4rem;
+    color: rgb(215, 215, 215);
+    font-weight: 900;
+}
+

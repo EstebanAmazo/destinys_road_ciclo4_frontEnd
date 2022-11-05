@@ -1,0 +1,39 @@
+.logo {
+    border-radius: .5rem;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* background-color: var(--color1); */
+}
+
+.logo img {
+
+    width: 16rem;
+}
+
+.navigation {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enlaces a {
+    /* border: 1px solid white; */
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 3rem;
+    font-weight: 400;
+}
+
+.enlaces a:hover {
+    background-color: rgb(93, 59, 110);
+    border-radius: .5rem;
+    /*color: white;*/
+    transition: .2s;
+
+
+}

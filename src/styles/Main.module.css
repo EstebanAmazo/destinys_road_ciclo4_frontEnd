@@ -1,0 +1,94 @@
+.heading1 {
+    margin-top: 34rem;
+    color: var(--color2);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.heading2 {
+    color: var(--color1);
+    font-weight: 400;
+
+}
+
+.heading1__vehiculos {
+    text-align: start;
+    margin-top: 23rem;
+    color: var(--color2);
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.heading2__vehiculos {
+    color: var(--color1);
+    font-weight: 400;
+}
+
+.grid {
+    margin-top: 5rem;
+    width: 100%;
+    height: 45rem;
+    /*background-color: #4e549e;*/
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3.5rem;
+}
+
+.grid div {
+
+    width: 25rem;
+    height: 18rem;
+    /*background-color: #c0c0c0;*/
+    border-radius: .4rem;
+    overflow: hidden;
+
+}
+.grid div:hover {
+    scale: 1.03;
+    transition: scale .2s;
+}
+
+.contenedor_imagenes {
+ /*position: relative;*/
+ background-color: rgb(177, 177, 177);
+}
+
+.imagen_destino {
+    width: 130%;
+    max-width: 200%;
+    object-fit: cover;
+
+}
+
+.nombre_destino {
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+    text-align: center;
+
+}
+
+.grid__vehiculos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.reserva {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 15rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.61);
+}
+.reserva h2 {
+    color: var(--color2);
+}
